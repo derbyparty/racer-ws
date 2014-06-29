@@ -1,7 +1,7 @@
 {
   "name": "racer-ws",
   "description": "Websocket plugin for Racer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./lib/server.js",
   "browser": {
     "main": "./lib/browser.js"
