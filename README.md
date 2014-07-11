@@ -19,10 +19,14 @@ var racerWS = require('racer-ws');
 // var store  = derby.createStore
 // ...
 
-racerWS(server, store);
+var upgrade = racerWS(store);
+
+// ...
+
+server.on('upgrade', upgrade)
 ```
 
-If you use `racer-ws` with derby make sure this is before any calls to `app.writeScripts`.
+If you use `racer-ws` with derby make sure `racerWS(store)` is before any calls to `app.writeScripts`.
 
 ## MIT License
 Copyright (c) 2014 by Artur Zayats
