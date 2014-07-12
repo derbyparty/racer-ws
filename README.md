@@ -28,6 +28,12 @@ server.on('upgrade', upgrade)
 
 If you use `racer-ws` with derby make sure `racerWS(store)` is before any calls to `app.writeScripts`.
 
+## WebSocket Info
+
+* [What is WebSocket?](https://www.websocket.org/)
+* [Nginx WebSocket Info](http://nginx.org/en/docs/http/websocket.html)
+* [Heroku WebSocket Info](https://devcenter.heroku.com/articles/websockets)
+
 ## MIT License
 Copyright (c) 2014 by Artur Zayats
 
