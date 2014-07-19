@@ -10,6 +10,15 @@
     "ws": "~0.4",
     "through": "^2.3.4"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/derbyparty/racer-ws.git"
+  },
+  "bugs": {
+    "url": "https://github.com/derbyparty/racer-ws/issues"
+  },
   "devDependencies": {},
-  "optionalDependencies": {}
+  "optionalDependencies": {},
+  "author": "Artur Zayats <zag2art@gmail.com>",
+  "license": "MIT"
 }
