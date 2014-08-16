@@ -1,5 +1,7 @@
 # racer-ws
 
+[![NPM](https://nodei.co/npm/racer-ws.png?downloads=true)](https://nodei.co/npm/racer-ws/)
+
 This is a plugin to use racer over a websocket connection.
 
 ## Usage
