@@ -2,7 +2,7 @@
 
 [![NPM](https://nodei.co/npm/racer-ws.png?downloads=true)](https://nodei.co/npm/racer-ws/)
 
-This is a plugin to use racer over a websocket connection.
+This is a plugin to use racer over a websocket connection. If you also need fallback to browserchannel use [racer-highway](https://github.com/derbyparty/racer-highway).
 
 ## Usage
 
